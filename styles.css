@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.mode{
+    position: absolute;
+    top: 1.3rem;
+    right: 1.3rem;
+    top: 1.2rem;
+    right: 4rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.container span{
+    color: rgb(242, 6, 6);
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.container span {
+    color: rgb(242, 6, 6);
+}
+
+body.dark-mode .container span {
+    color: yellow;
+}
